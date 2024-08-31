@@ -1,0 +1,283 @@
+/* Global settings */
+.accueil,
+.accueil * {
+  box-sizing: border-box;
+}
+
+.accueil {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Rectangle-1 */
+.rectangle-1 {
+  background: #000000;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logocentre-1 {
+  width: 20%; /* Ajuster en fonction de votre design */
+  max-width: 372px;
+  height: auto;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+/* Buttons */
+.boutton1, .boutton2 {
+  background: #efda17;
+  border-radius: 18px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.boutton1 {
+  margin-right: 50px;
+}
+
+.boutton2 {
+  margin-right: 700px;
+}
+
+/* Rectangle-4 */
+.rectangle-4 {
+  background: #d9d9d9;
+  border: 1px solid #000000;
+  width: 80%;
+  max-width: 802px;
+  height: 432px;
+  margin-right: auto;
+}
+
+/* Qui sommes-nous */
+.qui-sommes-nous {
+  color: #000000;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.ensemble {
+  display: flex;
+  width: 100%;
+  max-width: 1550px;
+}
+
+
+/* Map */
+.map {
+  width: 100%;
+  max-width: 720px;
+  height: 432px; /* Matches height of rectangle-4 */
+  display: flex;
+  align-items: center;
+}
+
+
+/* Rectangle-5 */
+.rectangle-5 {
+  background: rgba(240, 230, 136, 0.7);
+  border: 1px solid #000000;
+  width: 100%;
+  max-width: 1550px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.slide img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+}
+.textimg {
+    font-size: 60px;
+    position:absolute;
+    color: white;
+    margin-top: 600px;
+}
+/* Carousel controls */
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Carousel dots */
+.carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+/* Nous sommes spécialisés */
+.nous-sommes-sp-cialis-s-en {
+  color: #000000;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.ensemble2 {
+  background-color: rgba(240, 230, 136, 0.7); /* Gris clair */ /* Ajoute un peu d'espace en haut et en bas */
+  width: 100%; /* Assure que la section prend toute la largeur disponible */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Description */
+.description {
+  color: #000000;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 30px 0;
+  margin-left: 10px;
+}
+
+
+
+/* Rectangle-13 */
+.rectangle-13 {
+  background: #717070;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logocentre-2 {
+  width: 40%;
+  max-width: 417px;
+  height: auto;
+  object-fit: cover;
+}
+.logos{
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.contact{
+    color: #ffffff;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.8rem; 
+    margin-left: -40px;
+    margin-top: -280px;
+    display: flex;
+    font-weight: 700;
+}
+.fichec {
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    margin-top: 30px;   
+}
+/* Contact Information */
+.dom-de-la-verrerie-83136-rocbaron,
+._06-95-81-36-61,
+.amtp-830-gmail-com,
+.adresse,
+.t-l-phone,
+.email {
+  color: #ffffff;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1.5rem;
+  margin: 6px 0;
+}
+
+.adresse, .t-l-phone, .email {
+  font-weight: 700;
+}
+
+/* Icons */
+.accueil-1,
+.bouton-de-symbole-de-telephone-1,
+.enveloppe-1 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin-top: 50px;
+}

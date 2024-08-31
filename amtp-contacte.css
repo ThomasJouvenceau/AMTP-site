@@ -1,0 +1,160 @@
+.contacte {
+    background: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-1 {
+  background: #000000;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logocentre-1 {
+  width: 20%; /* Ajuster en fonction de votre design */
+  max-width: 372px;
+  height: auto;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+/* Buttons */
+.boutton1, .boutton2 {
+  background: #efda17;
+  border-radius: 18px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.boutton1 {
+  margin-right: 50px;
+}
+
+.boutton2 {
+  margin-right: 700px;
+}
+
+/* Main Content Section */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(240, 230, 136, 0.7);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.titre{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: -20px;
+    
+}   
+.stitre {
+    color: #555;
+    font-weight: 800;
+    font-style: italic;
+}
+ form input, form textarea{
+    border:0;
+     margin: 10px 0;
+     padding: 20px;
+     outline: none;
+     background-color: #f5f5f5;
+     font-size: 16px;
+}
+form button {
+    padding: 15px;
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    
+}
+.rectangle-13 {
+  background: #717070;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logocentre-2 {
+  width: 40%;
+  max-width: 417px;
+  height: auto;
+  object-fit: cover;
+}
+.logos{
+    flex-direction: column;
+    display: flex;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.contact{
+    color: #ffffff;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.8rem; 
+    margin-left: -40px;
+    margin-top: -280px;
+    display: flex;
+    font-weight: 700;
+}
+.fichec {
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    margin-top: 30px;   
+}
+/* Contact Information */
+.dom-de-la-verrerie-83136-rocbaron,
+._06-95-81-36-61,
+.amtp-830-gmail-com,
+.adresse,
+.t-l-phone,
+.email {
+  color: #ffffff;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1.5rem;
+  margin: 6px 0;
+}
+
+.adresse, .t-l-phone, .email {
+  font-weight: 700;
+}
+
+/* Icons */
+.accueil-1,
+.bouton-de-symbole-de-telephone-1,
+.enveloppe-1 {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin-top: 50px;
+}
